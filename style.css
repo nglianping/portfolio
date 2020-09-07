@@ -2,10 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
-  padding: 2rem;
-}
-
 #profile {
   width: 30%;
   height: 30%;
@@ -30,12 +26,6 @@ section {
 img.university_icon {
   width: 150px;
   height: 150px;
-}
-
-.uni_details,
-.company_details {
-  text-align: center;
-  opacity: 0;
 }
 
 img.company_icon {
