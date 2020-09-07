@@ -21,6 +21,8 @@
 
      <!-- Fontawesome 5 kit code -->
     <script src="https://kit.fontawesome.com/f44998d274.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -42,238 +44,241 @@
       >
         <ul class="navbar-nav text-uppercase">
           <li class="nav-item">
-            <a class="nav-link" href="#about"
-              ><i class="fas fa-address-card"></i> About</a
-            >
+            <a class="nav-link" href="#about"><i class="fas fa-address-card"></i> About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#education"
-              ><i class="fas fa-university"></i> Education</a
-            >
+            <a class="nav-link" href="#education"><i class="fas fa-university"></i> Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experience"
-              ><i class="fas fa-industry"></i> Experience</a
-            >
+            <a class="nav-link" href="#experience"><i class="fas fa-industry"></i> Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills"
-              ><i class="fas fa-tools"></i> Skills</a
-            >
+            <a class="nav-link" href="#skills"><i class="fas fa-tools"></i> Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact"
-              ><i class="fas fa-envelope"></i> Contact</a
-            >
+            <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <section id="about" class="container p-3 text-center">
-      <img id="profile" src="image/icon.png" alt="profile" />
+    <section id="about">
+      <div class="container text-center">
+        <img id="profile" src="image/icon.png" alt="profile" />
         <h1>Hi, I'm Lian Ping</h1>
         <h4>Web Designer</h4>
         <p class="text-justify text-break">
           Enthusiastic, dedicated Computer Science graduate who passionate about software and technology. Understanding of general employment skills and the importance of teamwork, time management, and problem solving. Seeking opportunity to gain a position in company that will maximize my potential.
         </p>
+      </div>
     </section>
+    <hr/>
 
-    <section id="education" class="container p-3">
-      <h1><i class="fas fa-university"></i> Education</h1>
-      <div class="row">
-         <div class="col-sm-4 my-auto text-center">
-          <img class="company_icon" src="image/sts.png" alt="Sekolah Tinggi Segamat"/>
-          <h4>Sekolah Tinggi Segamat</h4>
-          <h6>Pre-University</h6>
-          <p>2012 - 2013 | Segamat, Malaysia</p>
-        </div>
-        <div class="col-sm-4 my-auto text-center">
-          <img class="university_icon" src="image/uthm.png" alt="Universiti Tun Hussein Onn Malaysia (UTHM)"/>
-          <h4>Universiti Tun Hussein Onn Malaysia (UTHM)</h4>
-          <h6>Bachelor Degree of Computer Science (Web Technology) with Honours</h6>
-          <p>2014 - 2018 | Batu Pahat, Malaysia</p>
-        </div>
-        <div class="col-sm-4 my-auto text-center">
-          <img class="university_icon" src="image/utm.png" alt="Universiti Teknologi Malaysia (UTM)"/>
-          <h4>Universiti Teknologi Malaysia (UTM)</h4>
-          <h6 >Master of Information Management</h6>
-          <p>2018 - 2020 | Skudai, Malaysia</p>
+    <section id="education">
+      <div class="container">
+        <h1><i class="fas fa-university"></i> Education</h1>
+        <div class="row pt-4">
+           <div class="uni_details col-sm-4 my-auto">
+            <img class="university_icon" src="image/sts.png" alt="Sekolah Tinggi Segamat"/>
+            <h4>Sekolah Tinggi Segamat</h4>
+            <h6>Pre-University</h6>
+            <p>2012 - 2013 | Segamat, Malaysia</p>
+          </div>
+          <div class="uni_details col-sm-4 my-auto">
+            <img class="university_icon" src="image/uthm.png" alt="Universiti Tun Hussein Onn Malaysia (UTHM)"/>
+            <h4>Universiti Tun Hussein Onn Malaysia (UTHM)</h4>
+            <h6>Bachelor Degree of Computer Science (Web Technology) with Honours</h6>
+            <p>2014 - 2018 | Batu Pahat, Malaysia</p>
+          </div>
+          <div class="uni_details col-sm-4 my-auto">
+            <img class="university_icon" src="image/utm.png" alt="Universiti Teknologi Malaysia (UTM)"/>
+            <h4>Universiti Teknologi Malaysia (UTM)</h4>
+            <h6>Master of Information Management</h6>
+            <p>2018 - 2020 | Skudai, Malaysia</p>
+          </div>
         </div>
       </div>
     </section>
+    <hr/>
 
-    <section id="experience" class="container p-3">
-      <h1><i class="fas fa-industry"></i> Experience</h1>
-      <div class="row">
-        <div class="col-sm-4 my-auto text-center">
-          <img class="company_icon" src="image/ecoshop.png" alt="Eco-shop Marketing Sdn. Bhd.">
-          <h4>Eco-shop Marketing Sdn. Bhd.</h4>
-          <h5>Warehouse Order Picker</h5>
-          <p>Feb 2012 - July 2012 | Part time</p>
-          <ul class="text-justify">
-            <li>Pull warehouse items from shelves based on the order requirements.</li>
-            <li>Ensure the orders are correct and pick items accurately for delivery.</li>
-          </ul>
-        </div>
-          <div class="col-sm-4 my-auto text-center">
-            <img class="company_icon" src="image/bbw.png" alt="Big Bad Wolf Books Sdn. Bhd.">
-            <h4>Big Bad Wolf Books Sdn. Bhd.</h4>
-            <h5>Book Fair Worker</h5>
-            <p>Mar 2014 - Jun 2014 | Part time</p>
+    <section id="experience">
+      <div class="container">
+        <h1><i class="fas fa-industry"></i> Experience</h1>
+        <div class="row pt-4">
+          <div class="company_details col-sm-4 my-auto">
+            <img class="company_icon" src="image/ecoshop.png" alt="Eco-shop Marketing Sdn. Bhd.">
+            <h4>Eco-shop Marketing Sdn. Bhd.</h4>
+            <h5>Warehouse Order Picker</h5>
+            <p>Feb 2012 - July 2012 | Part time</p>
             <ul class="text-justify">
-              <li>Arrange and sort books according to the categories.</li>
-              <li>Provide customer service for customer needs and purchases.</li>
+              <li>Pull warehouse items from shelves based on the order requirements.</li>
+              <li>Ensure the orders are correct and pick items accurately for delivery.</li>
             </ul>
           </div>
-          <div class="col-sm-4 my-auto text-center">
-            <img class="company_icon" src="image/dignersys.png" alt="Dignersys Cloud Berhad">
-            <h4>Dignersys Cloud Berhad</h4>
-            <h5>Software Tester</h5>
-            <p>July 2017 - Dec 2017 | Internship</p>
-            <ul class="text-justify">
-              <li>Execute detailed and well-structured test plans and test cases.</li>
-              <li>Report bugs and errors to development team.</li>
+            <div class="company_details col-sm-4 my-auto">
+              <img class="company_icon" src="image/bbw.png" alt="Big Bad Wolf Books Sdn. Bhd.">
+              <h4>Big Bad Wolf Books Sdn. Bhd.</h4>
+              <h5>Book Fair Worker</h5>
+              <p>Mar 2014 - Jun 2014 | Part time</p>
+              <ul class="text-justify">
+                <li>Arrange and sort books according to the categories.</li>
+                <li>Provide customer service for customer needs and purchases.</li>
+              </ul>
+            </div>
+            <div class="company_details col-sm-4 my-auto">
+              <img class="company_icon" src="image/dignersys.png" alt="Dignersys Cloud Berhad">
+              <h4>Dignersys Cloud Berhad</h4>
+              <h5>Software Tester</h5>
+              <p>July 2017 - Dec 2017 | Internship</p>
+              <ul class="text-justify">
+                <li>Execute detailed and well-structured test plans and test cases.</li>
+                <li>Report bugs and errors to development team.</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h1><i class="fas fa-tools"></i> Skills</h1>
+        <div class="row pt-4">
+          <div class="col-sm-6">
+            <ul class="list-unstyled">
+              <li>
+                <div class="row p-2">
+                  <div class="col-3 text-center">
+                    <i class="fa fa-html5 fa-5x"></i>
+                  </div>
+                  <div class="col-9 my-auto">
+                    <div class="d-flex justify-content-between">
+                      <h4>HTML5</h4>
+                      <h4>70%</h4>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated"
+                        style="width: 70%"
+                      ></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row p-2">
+                  <div class="col-3 text-center">
+                    <i class="fab fa-css3-alt fa-5x"></i>
+                  </div>
+                  <div class="col-9 my-auto">
+                    <div class="d-flex justify-content-between">
+                      <h4>CSS3</h4>
+                      <h4>60%</h4>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated"
+                        style="width: 60%"
+                      ></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row p-2">
+                  <div class="col-3 text-center">
+                    <i class="fab fa-js-square fa-5x"></i>
+                  </div>
+                  <div class="col-9 my-auto">
+                    <div class="d-flex justify-content-between">
+                      <h4>JavaScript</h4>
+                      <h4>50%</h4>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated"
+                        style="width: 50%"
+                      ></div>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
-      </div>
-    </section>
-
-    <section id="skills" class="container p-3">
-      <h1><i class="fas fa-tools"></i> Skills</h1>
-      <div class="row">
-        <div class="col-sm-6">
-          <ul class="list-unstyled">
-            <li>
-              <div class="row p-2">
-                <div class="col-3 text-center">
-                  <i class="fa fa-html5 fa-5x"></i>
-                </div>
-                <div class="col-9 my-auto">
-                  <div class="d-flex justify-content-between">
-                    <h4>HTML5</h4>
-                    <h4>70%</h4>
+          <div class="col-sm-6">
+            <ul class="list-unstyled">
+              <li>
+                <div class="row p-2">
+                  <div class="col-3 text-center">
+                    <i class="fab fa-php fa-5x"></i>
                   </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
-                      style="width: 70%"
-                    ></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="row p-2">
-                <div class="col-3 text-center">
-                  <i class="fab fa-css3-alt fa-5x"></i>
-                </div>
-                <div class="col-9 my-auto">
-                  <div class="d-flex justify-content-between">
-                    <h4>CSS3</h4>
-                    <h4>60%</h4>
+                  <div class="col-9 my-auto">
+                    <div class="d-flex justify-content-between">
+                      <h4>Php</h4>
+                      <h4>50%</h4>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated"
+                        style="width: 50%"
+                      ></div>
                   </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
-                      style="width: 60%"
-                    ></div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div class="row p-2">
-                <div class="col-3 text-center">
-                  <i class="fab fa-js-square fa-5x"></i>
-                </div>
-                <div class="col-9 my-auto">
-                  <div class="d-flex justify-content-between">
-                    <h4>JavaScript</h4>
-                    <h4>50%</h4>
+              </li>
+              <li>
+                <div class="row p-2">
+                  <div class="col-3 text-center">
+                    <i class="fab fa-wordpress fa-5x"></i>
                   </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
-                      style="width: 50%"
-                    ></div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-6">
-          <ul class="list-unstyled">
-            <li>
-              <div class="row p-2">
-                <div class="col-3 text-center">
-                  <i class="fab fa-php fa-5x"></i>
-                </div>
-                <div class="col-9 my-auto">
-                  <div class="d-flex justify-content-between">
-                    <h4>Php</h4>
-                    <h4>50%</h4>
+                  <div class="col-9 my-auto">
+                    <div class="d-flex justify-content-between">
+                      <h4>Wordpress</h4>
+                      <h4>50%</h4>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated"
+                        style="width: 50%"
+                      ></div>
                   </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
-                      style="width: 50%"
-                    ></div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div class="row p-2">
-                <div class="col-3 text-center">
-                  <i class="fab fa-wordpress fa-5x"></i>
-                </div>
-                <div class="col-9 my-auto">
-                  <div class="d-flex justify-content-between">
-                    <h4>Wordpress</h4>
-                    <h4>50%</h4>
+              </li>
+              <li>
+                <div class="row p-2">
+                  <div class="col-3 text-center">
+                    <i class="fab fa-wix fa-5x"></i>
                   </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
-                      style="width: 50%"
-                    ></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="row p-2">
-                <div class="col-3 text-center">
-                  <i class="fab fa-wix fa-5x"></i>
-                </div>
-                <div class="col-9 my-auto">
-                  <div class="d-flex justify-content-between">
-                    <h4>Wix</h4>
-                    <h4>60%</h4>
+                  <div class="col-9 my-auto">
+                    <div class="d-flex justify-content-between">
+                      <h4>Wix</h4>
+                      <h4>60%</h4>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated"
+                        style="width: 60%"
+                      ></div>
                   </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
-                      style="width: 60%"
-                    ></div>
                 </div>
-              </div>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+    <hr>
 
-    <section id="contact" class="container p-3">
-      <h1><i class="fa fa-fw fa-envelope"></i> Contact</h1>
-      <div class="row">
-        <div class="col-sm-5">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.2171781801535!2d102.68492681426342!3d2.4345229578098766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ce29a17b71e33f%3A0x577e4d4bf71c7d7b!2s446%2C%20Lorong%2019%2C%20Taman%20Jementah%20Jaya%2C%2085200%20Jementah%2C%20Johor!5e0!3m2!1sen!2smy!4v1599381733039!5m2!1sen!2smy" frameborder="0" style="border:1;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="col-sm-7 my-auto">
-          <h2 class="text-center">Feel free to contact me!</h2>
-          <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>No. 446 A, Lorong 19, Kg. Baru, 85200 Jementah, Segamat, Johor.</li>
-            <li><span class="fa-li"><i class="fas fa-phone"></i></i></span>017-8245813</li>
-            <li><span class="fa-li"><i class="fas fa-mail-bulk"></i></span>ngping94@gmail.com</li>
-          </ul>
+    <section id="contact">
+      <div class="container">
+        <h1><i class="fa fa-fw fa-envelope"></i> Contact</h1>
+        <div class="row pt-4">
+          <div class="col-sm-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.2171781801535!2d102.68492681426342!3d2.4345229578098766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ce29a17b71e33f%3A0x577e4d4bf71c7d7b!2s446%2C%20Lorong%2019%2C%20Taman%20Jementah%20Jaya%2C%2085200%20Jementah%2C%20Johor!5e0!3m2!1sen!2smy!4v1599381733039!5m2!1sen!2smy" frameborder="0" style="border:1;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          <div class="col-sm-7 my-auto">
+            <h2 class="text-center">Feel free to contact me!</h2>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>No. 446 A, Lorong 19, Kg. Baru, 85200 Jementah, Segamat, Johor.</li>
+              <li><span class="fa-li"><i class="fas fa-phone"></i></i></span>017-8245813</li>
+              <li><span class="fa-li"><i class="fas fa-mail-bulk"></i></span>ngping94@gmail.com</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -287,31 +292,5 @@
       </div>
     </footer>
 
-    <script>
-      //Get the button
-      var mybutton = document.getElementById("myBtn");
-
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
   </body>
 </html>
