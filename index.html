@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me | Ng Lian Ping</title>
+    <link rel="shortcut icon" href="image/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -35,61 +38,73 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">
       <i class="fa fa-arrow-up"></i>
     </button>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-      <a class="navbar-brand" href="index.html">Ng Lian Ping</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="collapsibleNavbar"
-      >
-        <ul class="navbar-nav text-uppercase">
-          <li class="nav-item">
-            <a class="nav-link" href="#about"
-              ><i class="fas fa-address-card"></i> About</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education"
-              ><i class="fas fa-university"></i> Education</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience"
-              ><i class="fas fa-industry"></i> Experience</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills"
-              ><i class="fas fa-tools"></i> Skills</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact"
-              ><i class="fas fa-envelope"></i> Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" id="icon" href="index.html">Ng Lian Ping</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link" href="#about"
+                ><i class="fas fa-address-card"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education"
+                ><i class="fas fa-university"></i> Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience"
+                ><i class="fas fa-industry"></i> Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills"
+                ><i class="fas fa-tools"></i> Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"
+                ><i class="fas fa-envelope"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div> 
+      </nav>
+      <div class="progress" id="scroll-indicator">
+        <div class="progress-bar" id="indicator-bar"></div>
+      </div>  
+    </header>
+    
 
     <section id="about">
       <div class="container text-center">
-        <img id="profile" src="image/icon.png" alt="profile" />
-        <h1>Hi, I'm Lian Ping</h1>
-        <h4>Web Designer</h4>
-        <p class="text-justify text-break">
-          Enthusiastic, dedicated Computer Science graduate who passionate about software and technology. Understanding of general employment skills and the importance of teamwork, time management, and problem solving. Seeking opportunity to gain a position in company that will maximize my potential.
-        </p>
-        <a href="/Ng_Lian Ping_Resume.pdf" download="Resume"><button class="download">Download Resume</button></a>
+        <div class="row">
+          <div class="col-sm"></div>
+          <div class="col-sm-6">
+            <img id="profile" src="image/icon.png" alt="profile" />
+            <h1>Hi, I'm Lian Ping</h1>
+            <h4>Web Designer</h4>
+            <p class="text-justify text-break">
+              Enthusiastic, dedicated Computer Science graduate who passionate about software and technology. Understanding of general employment skills and the importance of teamwork, time management, and problem solving. Seeking opportunity to gain a position in company that will maximize my potential.
+            </p>
+            <a href="/Ng_Lian Ping_Resume.pdf" download="Resume"><button class="download">Download Resume</button></a>
+          </div>
+          <div class="col-sm"></div>
+        </div>
+        
       </div>
-      <img class="wave" src="image/wave.png" alt="wave">
     </section>
 
     <section id="education">
@@ -97,7 +112,7 @@
         <h1><i class="fas fa-university"></i> Education</h1>
         <div class="row">
            <div class="col-sm-4 my-auto text-center">
-            <img class="company_icon" src="image/sts.png" alt="Sekolah Tinggi Segamat"/>
+            <img class="university_icon" src="image/sts.png" alt="Sekolah Tinggi Segamat"/>
             <h4>Sekolah Tinggi Segamat</h4>
             <h6>Pre-University</h6>
             <p>2012 - 2013 | Segamat, Malaysia</p>
@@ -126,7 +141,7 @@
             <img class="company_icon" src="image/ecoshop.png" alt="Eco-shop Marketing Sdn. Bhd.">
             <h4>Eco-shop Marketing Sdn. Bhd.</h4>
             <h5>Warehouse Order Picker</h5>
-            <p>Feb 2012 - July 2012 | Part time</p>
+            <h6>Feb 2012 - July 2012 | Part time</h6>
             <ul class="text-justify">
               <li>Pull warehouse items from shelves based on the order requirements.</li>
               <li>Ensure the orders are correct and pick items accurately for delivery.</li>
@@ -136,7 +151,7 @@
               <img class="company_icon" src="image/bbw.png" alt="Big Bad Wolf Books Sdn. Bhd.">
               <h4>Big Bad Wolf Books Sdn. Bhd.</h4>
               <h5>Book Fair Worker</h5>
-              <p>Mar 2014 - Jun 2014 | Part time</p>
+              <h6>Mar 2014 - Jun 2014 | Part time</h6>
               <ul class="text-justify">
                 <li>Arrange and sort books according to the categories.</li>
                 <li>Provide customer service for customer needs and purchases.</li>
@@ -146,7 +161,7 @@
               <img class="company_icon" src="image/dignersys.png" alt="Dignersys Cloud Berhad">
               <h4>Dignersys Cloud Berhad</h4>
               <h5>Software Tester</h5>
-              <p>July 2017 - Dec 2017 | Internship</p>
+              <h6>July 2017 - Dec 2017 | Internship</h6>
               <ul class="text-justify">
                 <li>Execute detailed and well-structured test plans and test cases.</li>
                 <li>Report bugs and errors to development team.</li>
@@ -292,7 +307,7 @@
         <div class="row">
           <div class="col-sm-6 my-auto">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.2171781801535!2d102.68492681426342!3d2.4345229578098766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ce29a17b71e33f%3A0x577e4d4bf71c7d7b!2s446%2C%20Lorong%2019%2C%20Taman%20Jementah%20Jaya%2C%2085200%20Jementah%2C%20Johor!5e0!3m2!1sen!2smy!4v1599381733039!5m2!1sen!2smy" frameborder="0" style="border:1;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <div>
+            <div class="pt-5">
               <ul class="fa-ul text-justify">
                 <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>No. 446 A, Lorong 19, Kg. Baru, 85200 Jementah, Segamat, Johor.</li>
                 <li><span class="fa-li"><i class="fas fa-phone"></i></i></span>017-8245813</li>
@@ -341,6 +356,7 @@
 
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function () {
+        scroll_indicator_function();
         scrollFunction();
       };
 
@@ -360,6 +376,20 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
+
+      function scroll_indicator_function() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("indicator-bar").style.width = scrolled + "%";
+      }
+
+      $(".progress").each(function() {
+      var progressBar = $(".progress-bar");
+      progressBar.each(function(indx){
+          $(this).css("width", $(this).attr("aria-valuenow") + "%");
+        });
+      });
 
     </script>
   </body>
