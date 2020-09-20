@@ -12,7 +12,6 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
-
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -33,6 +32,21 @@
       gtag('js', new Date());
       gtag('config', 'UA-177592343-2');
     </script>
+    
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/5f647ed4f0e7167d001183c1/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+      </script>
+      <!--End of Tawk.to Script-->
+
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="5">
     <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -60,6 +74,12 @@
               >
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#resume"
+                ><i class="far fa-file"></i> Resume</a
+              >
+            </li>
+            <!--
+            <li class="nav-item">
               <a class="nav-link" href="#education"
                 ><i class="fas fa-university"></i> Education</a
               >
@@ -69,6 +89,7 @@
                 ><i class="fas fa-industry"></i> Experience</a
               >
             </li>
+            -->
             <li class="nav-item">
               <a class="nav-link" href="#skills"
                 ><i class="fas fa-tools"></i> Skills</a
@@ -86,27 +107,102 @@
         <div class="progress-bar" id="indicator-bar"></div>
       </div>  
     </header>
-    
 
-    <section id="about">
-      <div class="container text-center">
+    <section id="about">    
+      <div class="container">
         <div class="row">
-          <div class="col-sm"></div>
-          <div class="col-sm-6">
+          <div class="col-sm my-auto text-center">
             <img id="profile" src="image/icon.png" alt="profile" />
-            <h1>Hi, I'm Lian Ping</h1>
-            <h4>Web Designer</h4>
+          </div>
+          <div class="col-sm my-auto">
+            <h1>Ng Lian Ping</h1>
+            <h4>I'm a 
+              <span
+              class="txt-rotate"
+              data-period="2000"
+              data-rotate='[ "web designer", "web developer", "freelancer" ]'>
+              </span>
+            </h4>
             <p class="text-justify text-break">
               Enthusiastic, dedicated Computer Science graduate who passionate about software and technology. Understanding of general employment skills and the importance of teamwork, time management, and problem solving. Seeking opportunity to gain a position in company that will maximize my potential.
             </p>
-            <a href="/Ng_Lian Ping_Resume.pdf" download="Resume"><button class="download">Download Resume</button></a>
           </div>
-          <div class="col-sm"></div>
         </div>
-        
       </div>
     </section>
 
+    <section id="resume">
+      <div class="container">
+        <h1><i class="far fa-file"></i> Resume</h1>
+        <div id="timeline">
+          <div class="content_container left">
+            <div class="content">           
+              <img class="university_icon" src="image/utm.png" alt="Universiti Teknologi Malaysia (UTM)"/>
+              <h4>Universiti Teknologi Malaysia (UTM)</h4>
+              <h6>Master of Information Technology Management</h6>
+              <p>2018 - 2020 | Skudai, Malaysia</p>            
+            </div>
+          </div>
+          <div class="content_container right">
+            <div class="content">
+              <img class="company_icon" src="image/dignersys.png" alt="Dignersys Cloud Berhad">
+              <h4>Dignersys Cloud Berhad</h4>
+              <h5>Software Tester</h5>
+              <h6>July 2017 - Dec 2017 | Internship</h6>
+              <ul class="resume text-justify">
+                <li>Execute detailed and well-structured test plans and test cases.</li>
+                <li>Report bugs and errors to development team.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="content_container left">
+            <div class="content">           
+              <img class="university_icon" src="image/uthm.png" alt="Universiti Tun Hussein Onn Malaysia (UTHM)"/>
+              <h4>Universiti Tun Hussein Onn Malaysia (UTHM)</h4>
+              <h6>Bachelor Degree of Computer Science (Web Technology) with Honours</h6>
+              <p>2014 - 2018 | Batu Pahat, Malaysia</p>         
+            </div>
+          </div>
+          <div class="content_container right">
+            <div class="content">
+              <img class="company_icon" src="image/bbw.png" alt="Big Bad Wolf Books Sdn. Bhd.">
+              <h4>Big Bad Wolf Books Sdn. Bhd.</h4>
+              <h5>Book Fair Worker</h5>
+              <h6>Mar 2014 - Jun 2014 | Part time</h6>
+              <ul class="resume text-justify">
+                <li>Arrange and sort books according to the categories.</li>
+                <li>Provide customer service for customer needs and purchases.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="content_container left">
+            <div class="content">           
+              <img class="university_icon" src="image/sts.png" alt="Sekolah Tinggi Segamat"/>
+              <h4>Sekolah Tinggi Segamat</h4>
+              <h6>Pre-University</h6>
+              <p>2012 - 2013 | Segamat, Malaysia</p>
+            </div>
+          </div>
+          <div class="content_container right">
+            <div class="content">
+              <img class="company_icon" src="image/ecoshop.png" alt="Eco-shop Marketing Sdn. Bhd.">
+              <h4>Eco-shop Marketing Sdn. Bhd.</h4>
+              <h5>Warehouse Order Picker</h5>
+              <h6>Feb 2012 - July 2012 | Part time</h6>
+              <ul class="resume text-justify">
+                <li>Pull warehouse items from shelves based on the order requirements.</li>
+                <li>Ensure the orders are correct and pick items accurately for delivery.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="pt-3 text-center">
+          <a href="/Ng_Lian Ping_Resume.pdf" download="Resume"><button class="download_button"><i class="fas fa-download"></i> Download Resume</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!--
     <section id="education">
       <div class="container">
         <h1><i class="fas fa-university"></i> Education</h1>
@@ -126,7 +222,7 @@
           <div class="col-sm-4 my-auto text-center">
             <img class="university_icon" src="image/utm.png" alt="Universiti Teknologi Malaysia (UTM)"/>
             <h4>Universiti Teknologi Malaysia (UTM)</h4>
-            <h6 >Master of Information Management</h6>
+            <h6 >Master of Information Technology Management</h6>
             <p>2018 - 2020 | Skudai, Malaysia</p>
           </div>
         </div>
@@ -170,12 +266,13 @@
         </div>
       </div>
     </section>
+    -->
 
     <section id="skills">
       <div class="container">
         <h1><i class="fas fa-tools"></i> Skills</h1>
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm">
             <ul class="list-unstyled">
               <li>
                 <div class="row p-2">
@@ -189,11 +286,11 @@
                     </div>
                     <div class="progress">
                       <div
-                        class="progress-bar progress-bar-striped"
+                        class="progress-bar progress-bar-striped progress-bar-animated"
                         role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
                         style="width: 70%"
                       ></div>
-                  </div>
+                    </div>
                 </div>
               </li>
               <li>
@@ -208,7 +305,7 @@
                     </div>
                     <div class="progress">
                       <div
-                        class="progress-bar progress-bar-striped"
+                        class="progress-bar progress-bar-striped progress-bar-animated"
                         role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
                         style="width: 60%"
                       ></div>
@@ -227,7 +324,7 @@
                     </div>
                     <div class="progress">
                       <div
-                        class="progress-bar progress-bar-striped"
+                        class="progress-bar progress-bar-striped progress-bar-animated"
                         role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
                         style="width: 50%"
                       ></div>
@@ -236,7 +333,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm">
             <ul class="list-unstyled">
               <li>
                 <div class="row p-2">
@@ -250,7 +347,7 @@
                     </div>
                     <div class="progress">
                       <div
-                        class="progress-bar progress-bar-striped"
+                        class="progress-bar progress-bar-striped progress-bar-animated"
                         role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
                         style="width: 50%"
                       ></div>
@@ -269,7 +366,7 @@
                     </div>
                     <div class="progress">
                       <div
-                        class="progress-bar progress-bar-striped"
+                        class="progress-bar progress-bar-striped progress-bar-animated"
                         role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
                         style="width: 50%"
                       ></div>
@@ -288,7 +385,7 @@
                     </div>
                     <div class="progress">
                       <div
-                        class="progress-bar progress-bar-striped"
+                        class="progress-bar progress-bar-striped progress-bar-animated"
                         role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
                         style="width: 60%"
                       ></div>
@@ -305,7 +402,7 @@
       <div class="container">
         <h1><i class="fa fa-fw fa-envelope"></i> Contact</h1>
         <div class="row">
-          <div class="col-sm-6 my-auto">
+          <div class="col-sm my-auto">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.2171781801535!2d102.68492681426342!3d2.4345229578098766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ce29a17b71e33f%3A0x577e4d4bf71c7d7b!2s446%2C%20Lorong%2019%2C%20Taman%20Jementah%20Jaya%2C%2085200%20Jementah%2C%20Johor!5e0!3m2!1sen!2smy!4v1599381733039!5m2!1sen!2smy" frameborder="0" style="border:1;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <div class="pt-5">
               <ul class="fa-ul text-justify">
@@ -315,8 +412,8 @@
               </ul>
             </div>
           </div>
-          <div class="col-sm-6">
-            <h1>Get In Touch</h1>
+          <div class="col-sm">
+            <h3>Let's Connect!</h3>
             <form method="POST" action="contact-form-handler.php">
               <div class="form-group">
                 <label for="name">Name:</label>
@@ -350,47 +447,7 @@
       </div>
     </footer>
 
-    <script>
-      //Get the button
-      var mybutton = document.getElementById("myBtn");
+    <script src="script.js"></script>
 
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scroll_indicator_function();
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-
-      function scroll_indicator_function() {
-        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        var scrolled = (winScroll / height) * 100;
-        document.getElementById("indicator-bar").style.width = scrolled + "%";
-      }
-
-      $(".progress").each(function() {
-      var progressBar = $(".progress-bar");
-      progressBar.each(function(indx){
-          $(this).css("width", $(this).attr("aria-valuenow") + "%");
-        });
-      });
-
-    </script>
   </body>
 </html>
