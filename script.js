@@ -60,7 +60,7 @@ TxtRotate.prototype.tick = function () {
   this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
 
   var that = this;
-  var delta = 300 - Math.random() * 100;
+  var delta = 150 - Math.random() * 100; //typing speed
 
   if (this.isDeleting) {
     delta /= 2;
@@ -91,7 +91,6 @@ window.onload = function () {
   }
   // INJECT CSS
   var css = document.createElement("style");
-  css.type = "text/css";
   css.innerHTML =
     ".txt-rotate > .wrap { border-right: 0.1em solid; animation: animated-cursor 600ms steps(30,end) infinite }";
   document.body.appendChild(css);

@@ -4,6 +4,33 @@ html {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.custom-shape-divider-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom .shape-fill {
+  fill: #ffffff;
+}
+
+#about {
+  position: relative;
 }
 
 #icon {
@@ -22,7 +49,12 @@ section {
 }
 
 section:nth-child(odd) {
-  background: rgb(236, 235, 235);
+  background: linear-gradient(135deg, #f956b3, #eb7d0e);
+}
+
+.self_description {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #timeline {
@@ -167,18 +199,20 @@ div.progress {
 }
 
 #profile {
+  padding: 1rem;
+  border-radius: 50%;
   width: 70%;
   height: 50%;
 }
 
 .txt-rotate {
-  font-size: 1em;
-  color: red;
+  font-size: 1.5em;
+  color: black;
 }
 
 @keyframes animated-cursor {
   from {
-    border-right-color: black;
+    border-right-color: white;
   }
   to {
     border-right-color: transparent;
@@ -238,6 +272,10 @@ iframe {
   transition: all 0.4s ease;
 }
 
+.skill_icon {
+  font-size: 4em;
+}
+
 .passion_item {
   margin: 1rem;
   padding: 1rem;
@@ -248,7 +286,7 @@ iframe {
 
 .passion_item:hover {
   color: white;
-  background-color: rgb(49, 48, 48);
+  background: linear-gradient(135deg, #f956b3, #eb7d0e);
   transform: scale(1.1);
 }
 
@@ -262,6 +300,35 @@ iframe {
 .passion_item_description {
   padding: 10px;
   text-align: justify;
+}
+
+.author_image {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.blockquote_text {
+  margin: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.blockquote_author {
+  margin: 0;
+  font-weight: 500;
+  text-align: right;
+}
+
+.blockquote_author_title {
+  font-style: italic;
+  text-align: right;
+  font-size: small;
+}
+
+.detail {
+  font-size: 20px;
+  margin: 20px;
 }
 
 footer {
